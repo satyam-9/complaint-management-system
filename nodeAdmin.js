@@ -11,6 +11,7 @@ function getAllEquipment(req,res,con){
 	})
 }
 
+
 function getAllHistory(req,res,con){
 	var values=req.query;
 	var sInfoRadio=values.sInfoRadio;
