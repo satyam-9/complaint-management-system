@@ -25,7 +25,6 @@ fs.readFile('MySQL_Connection_Details','utf8',function(err, data) {
 	});
 });
 
-
 app.use(express.static(__dirname + '/dist'));
 app.use(express.static(__dirname + ''));
 app.use(express.static(__dirname + '/fa'));
